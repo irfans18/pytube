@@ -68,7 +68,7 @@ Sometime, the pypi release becomes slightly outdated. To install from the
 source with pip:
 
 ```bash
-$ python3 -m pip install git+https://github.com/irfans18/pytube
+python3 -m pip install git+https://github.com/irfans18/pytube
 ```
 
 ### Using pytube in a python script
@@ -94,11 +94,11 @@ From there, you can access the streams and download them.
 Using the CLI is extremely straightforward as well. To download a video at the
 highest progressive quality, you can use the following command:
 ```bash
-$ pytube 'https://youtube.com/watch?v=2lAe1cqCOXo'
+pytube 'https://youtube.com/watch?v=2lAe1cqCOXo'
 ```
 
 You can also do the same for a playlist:
 ```bash
-$ pytube 'https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
+pytube 'https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
 ```
 
