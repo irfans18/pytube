@@ -14,7 +14,7 @@
 Have ideas for how pytube can be improved? Feel free to open an issue or a pull
 request!
 
-# pytube
+# custom pytube by irfans18
 
 *pytube* is a very serious, lightweight, dependency-free Python library (and
 command-line utility) for downloading YouTube Videos.
@@ -64,17 +64,11 @@ Pytube requires an installation of python 3.6 or greater, as well as pip.
 Pip is typically bundled with python installations, and you can find options
 for how to install python at https://python.org.
 
-To install from pypi with pip:
-
-```bash
-$ python -m pip install pytube
-```
-
 Sometime, the pypi release becomes slightly outdated. To install from the
 source with pip:
 
 ```bash
-$ python -m pip install git+https://github.com/pytube/pytube
+$ python -m pip install git+https://github.com/irfans18/pytube
 ```
 
 ### Using pytube in a python script
@@ -100,11 +94,11 @@ From there, you can access the streams and download them.
 Using the CLI is extremely straightforward as well. To download a video at the
 highest progressive quality, you can use the following command:
 ```bash
-$ pytube https://youtube.com/watch?v=2lAe1cqCOXo
+$ pytube 'https://youtube.com/watch?v=2lAe1cqCOXo'
 ```
 
 You can also do the same for a playlist:
 ```bash
-$ pytube https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n
+$ pytube 'https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n'
 ```
 
