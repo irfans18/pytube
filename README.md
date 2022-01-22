@@ -68,7 +68,7 @@ Sometime, the pypi release becomes slightly outdated. To install from the
 source with pip:
 
 ```bash
-$ python -m pip install git+https://github.com/irfans18/pytube
+$ python3 -m pip install git+https://github.com/irfans18/pytube
 ```
 
 ### Using pytube in a python script
